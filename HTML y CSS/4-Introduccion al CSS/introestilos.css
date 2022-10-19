@@ -1,0 +1,25 @@
+/*Esilos para colores  https://coolors.co/211103-3d1308-7b0d1e-9f2042-f8e5ee*/
+.colores{
+    
+}
+
+.color-hexadecimal{
+    color: #3D1308;
+}
+
+.color-rgb{
+    color: rgb(100, 0,0); /*color: rgb(red, green, blue)*/
+}
+
+.color-rgba{
+    color: rgba(1,0,0, 0.5);  /*color: rgba(red, green, blue, alpha);*/
+}
+
+
+/*Fondos*/
+
+.fondo{
+    /*background-color: aqua;*/
+    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/09/mejor-aplicacion-fondos-pantalla-animados-llegaria-android-dentro-poco-2482649.jpg?itok=MzFSaRMp");
+    background-position: center center ; /*en x en y*/
+}
