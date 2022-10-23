@@ -23,3 +23,23 @@
     background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/09/mejor-aplicacion-fondos-pantalla-animados-llegaria-android-dentro-poco-2482649.jpg?itok=MzFSaRMp");
     background-position: center center ; /*en x en y*/
 }
+
+/*Tamaño*/
+.ancho{
+    background-color: bisque;
+    width: 100px;
+}
+.alto{
+    background-color: aqua;
+    height: 500px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 0.5px;
+    /*border-top: none;*/
+    padding: 10px 20px; /*padding: arriba derecha abajo izq;   como un reloj*/
+    margin: 10px 10px;
+
+}

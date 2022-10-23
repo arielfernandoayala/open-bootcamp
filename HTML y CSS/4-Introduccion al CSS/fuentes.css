@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto+Mono:ital,wght@0,300;0,500;1,300&display=swap');
+
+
+html{
+    /*tipografia para todo el html*/
+    font-family: 'Island Moments', cursive;
+    font-size: 14pt; /*px tmb*/
+    font-weight: 600;
+
+}
+
+/*Usamos fuentes de google*/
