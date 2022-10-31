@@ -1,0 +1,38 @@
+.contenedor-hidden{
+    background-color: yellow ;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.contenedor-scroll{
+    margin: 10px 0px;
+    background-color: forestgreen ;
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.contenedor-visible{
+    margin: 10px 0px;
+    background-color: gray ;
+    width: 300px;
+    height: 100px;
+    overflow: visible;
+}
+
+.contenedor-auto{
+    margin: 10px 0px;
+    background-color: blueviolet ;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+.contenedor-scroll-x{
+    margin: 10px 0px;
+    background-color: forestgreen ;
+    width: 300px;
+    height: 100px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
