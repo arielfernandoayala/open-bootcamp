@@ -1,0 +1,12 @@
+div{
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+}
+.static{
+    /*left: 80px; esto mno lo deberia hacer*/
+}
+
+.relative{
+    position: relative;
+}
