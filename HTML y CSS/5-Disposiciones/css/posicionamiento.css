@@ -10,3 +10,27 @@ div{
 .relative{
     position: relative;
 }
+
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: chartreuse;
+}
+
+.absolute{
+    position: absolute;
+    top: 0px;
+}
+
+.sticky{
+    position: sticky;
+    background-color:coral;
+    top: 0;
+    z-index: 2;
+}
+
+.relleno{
+    background-color: blue;
+    height: 500px;
+}
