@@ -1,0 +1,27 @@
+/*Quitamos paddin y margin que viene por defecto*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*100 de del view width , 100 del height, que rellene todo la posicion y que quede fix asi queda clavado en el fondo */
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+    position: fixed;
+}
+
+/*posicion relativa, que en html la fuente sea: , que color sea blanco, que la alineacion sea centrado, que dysplay sea flexible
+y que este alineado horizontral y vertical, Que la alineacion sea en columnas, espacio de 10px entre elementos*/
+.header{
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
