@@ -1,10 +1,11 @@
-/*Quitamos paddin y margin que viene por defecto*/
+/*Quitamos padding y margin que viene por defecto*/
 *{
     padding: 0;
     margin: 0;
 }
 
-/*100 de del view width , 100 del height, que rellene todo la posicion y que quede fix asi queda clavado en el fondo */
+/*100 de del view width , 100 del height, que rellene todo la posicion y que quede fix asi queda clavado en el fondo
+object-fit: cover; permite que no se redimensione */
 .video{
     width: 100vw;
     height: 100vh;
