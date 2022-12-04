@@ -1,10 +1,13 @@
+/*Display flex hace que
+justify-content: los posicionna con relacion al eje principal, en x o y, que por defecto es X pero con flex-direction: column lo cambio
+flex-wrap: wrap; lo que hace es que mantener el tamaño de los elementos y sino entran , baja para abajo los elementos pare evitar redimensionar*/
 .flex{
     display: flex;
     flex-direction: column;
     background-color: yellow;
     height: 300;
     justify-content: space-around;
-    align-items: center; /*dimensione a la altura del contenedor hijo*/
+    align-items: center; /*por defecto es stretch. Dimensione a la altura del contenedor pardre en funcion del hijo o lo que tanga dentro (por ej usar flex end o flex start*/ 
     /*flex-wrap: wrap;*/
 
 }

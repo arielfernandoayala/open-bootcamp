@@ -14,7 +14,8 @@ object-fit: cover; permite que no se redimensione */
 }
 
 /*posicion relativa, que en html la fuente sea: , que color sea blanco, que la alineacion sea centrado, que dysplay sea flexible
-y que este alineado horizontral y vertical, Que la alineacion sea en columnas, espacio de 10px entre elementos*/
+y que este alineado horizontral y vertical, Que la alineacion sea en columnas, espacio de 10px entre elementos
+gap: 10px; espacio entre elmentos*/
 .header{
     height: 100vh;
     position: relative;

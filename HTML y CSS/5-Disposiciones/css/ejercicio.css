@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.imagen-galeria{
+    width: 300px;
+}
