@@ -1,0 +1,13 @@
+/*En este caos se acceden con ::  */
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+
+.libro::before{
+    content: '<<< --';
+    size: 2px;
+    color: brown;
+}
