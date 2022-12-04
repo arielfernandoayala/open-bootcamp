@@ -2,8 +2,55 @@
 <html lang="en">
 <head>
     <title>Pseudoclases</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .hover{
+            width: 300px;
+            height: 100px;
+            background-color: aliceblue;
+        }
+        /*psudoclase , se utiliza con los :  */
+        .hover:hover{/*Se activa cuadno el raton pasa por encima*/
+            background-color: blueviolet;
+        }
+        .listado{
+            padding: 15px;
+            background-color: aquamarine;
+        }
+        .listado p:first-child{ /*Hace referencia al pimer elemento hijo 'p' dentro de la clase listado*/
+            color: brown;
+        }
+        a:link{/*Link no visitados todavia*/
+            color: pink;
+        }
+        a:visited{
+            color: chartreuse ;
+        }
+        a:hover{
+            color: yellow;
+        }
+        a:active{
+            color: greenyellow;
+        } 
+    </style>
 </head>
 <body>
-    
+    <div class="hover">
+        <p>Esto es un parrafoo de varias lineas para probar texto y seguir en el curso de open
+            boot camp. No pude hacer andar ese plugin de mierda que inserta texto
+        </p>
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Google</a> <!--target blank hace que abra en otra pestaña-->
+        <a href="http://google.com" target="_blank">Google</a>
+    </div>
 </body>
 </html>
